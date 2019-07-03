@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Presentation Evalution</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="cambodia">cambodia</string>
+    <string name="department_of_computer_science">Department Of Computer Science</string>
+    <string name="member_of_acedemic_examiners_bord">Member of acedemic examiners bord:</string>
+    <string name="gender_of_member">Gender Of Member:</string>
+    <string name="m">M</string>
+    <string name="f">F</string>
+    <string name="evaluation_of_oral_presentations_of">Evaluation of Oral Presentations of:</string>
+    <string name="form_comunition_faculy">Form Comunition faculy</string>
+    <string name="clarity_of_presentation_outline">Clarity Of presentation outline</string>
+    <string name="a">a</string>
+    <string name="b">b</string>
+    <string name="c">c</string>
+    <string name="d">d</string>
+    <string name="e">e</string>
+    <string name="respect_of_given_time_time_management_rhythm_of_presentation">Respect of given time – Time management,
+        rhythm of presentation
+    </string>
+    <string name="language_accuracy_pronunciation_speed_control">Language accuracy, Pronunciation, Speed control
+    </string>
+    <string name="preparation_works_visual_aid_screen_projector">Preparation works – Visual aid (screen,
+        projector,...)
+    </string>
+    <string name="interest_effort_of_persuasion">Interest, effort of persuasion</string>
+    <string name="content_technical_aspect">Content, Technical aspect</string>
+    <string name="choice_and_topic_of_oral_presentation">Choice and topic of oral presentation</string>
+    <string name="relevancy_of_comment_and_technical_explanation">Relevancy of comment and technical explanation
+    </string>
+    <string name="progress_pf_reasoning">Progress pf reasoning</string>
+    <string name="answer_to_questions">Answer to questions</string>
+    <string name="submite_now">Submite Now</string>
+</resources>

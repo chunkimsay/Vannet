@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/NIPTICT_LOGO"
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
+            android:contentDescription="@string/BANNER"
+            app:srcCompat="@drawable/nip" />
+
+        <TextView
+            android:id="@+id/Cambodia"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/NIPTICT_LOGO"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/CAMBODIA"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/Department_CS"
+            android:layout_centerInParent="true"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Cambodia"
+            android:layout_marginTop="5dp"
+            android:text="@string/CS"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/Member"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Department_CS"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/Member_board"
+            android:textColor="#000"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/getTextMember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Department_CS"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="@string/data_from_member"
+            android:textColor="#283593"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/GENDER"
+            android:textStyle="italic"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Member"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/gender" />
+
+        <TextView
+            android:id="@+id/getTextGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/getTextMember"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/data_from_gender"
+            android:textColor="#B31530"
+            android:textStyle="bold|italic" />
+
+        <TextView
+
+            android:id="@+id/Evaluation"
+            android:textStyle="italic"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/GENDER"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/Evaluate_present" />
+
+        <TextView
+            android:id="@+id/getTextEvaluation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/getTextGender"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/data_from_evaluation"
+            android:textColor="#6A1B9A"
+            android:textStyle="bold|italic" />
+
+
+        <TextView
+            android:id="@+id/FORM"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Evaluation"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/Form_faculty"
+            android:textColor="#000"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/Clarity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/FORM"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:text="@string/Clari_outline" />
+
+        <TextView
+            android:id="@+id/getTextClarity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/FORM"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="@string/data_from_Clarity"
+            android:textColor="#109988"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/RespectTime"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="@string/Respect_time"
+            android:layout_below="@id/Clarity"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"/>
+
+        <TextView
+            android:id="@+id/getTextRespect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/getTextClarity"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="@string/data_from_Respect"
+            android:textColor="#FF8F00"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/Languages"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_below="@id/RespectTime"
+            android:layout_marginTop="20dp"
+            android:text="@string/Language"
+            android:layout_marginStart="30dp"/>
+
+        <TextView
+            android:id="@+id/getTextLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/getTextRespect"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="35dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="@string/data_from_Language"
+            android:textColor="#1565C0"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/Prepares"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_below="@id/Languages"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:text="@string/preparation" />
+
+        <TextView
+            android:id="@+id/getTextPrepare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/getTextLanguage"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="35dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="@string/datafrom_pre"
+            android:textColor="#D84315"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/Interests"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_below="@id/Prepares"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:text="@string/interest" />
+
+        <TextView
+            android:id="@+id/getTextInterest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/getTextPrepare"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="35dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="@string/data_from_interest"
+            android:textColor="#FF8F00"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/Contents"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Interests"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/content"
+            android:textColor="#000"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/Choice"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_below="@id/Contents"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:text="@string/choice_topic" />
+
+        <TextView
+            android:id="@+id/getTextChoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Contents"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="@string/datachhoise"
+            android:textColor="#00695C"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/Relevancy"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_below="@id/Choice"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:text="@string/revenacy" />
+
+        <TextView
+            android:id="@+id/getTextRelevancy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/getTextChoice"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="@string/reverancy"
+            android:textColor="#FF8F00"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/Progress"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_below="@id/Relevancy"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:text="@string/prsess" />
+
+        <TextView
+            android:id="@+id/getTextProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/getTextRelevancy"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="@string/dataprocess"
+            android:textColor="#1565C0"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/Answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_below="@id/Progress"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:text="@string/answer" />
+
+        <TextView
+            android:id="@+id/getTextAnswers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/getTextProgress"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="25dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="@string/datananswer"
+            android:textColor="#D84315"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/CMT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cmt"
+            android:textColor="#000"
+            android:layout_below="@id/Answers"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:id="@+id/getTextCOMMENT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/CMT"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/datafromcmt"
+            android:textColor="#000"
+            android:textStyle="bold|italic" />
+    </RelativeLayout>
+</ScrollView>
